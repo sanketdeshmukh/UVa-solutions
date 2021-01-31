@@ -25,7 +25,7 @@ public class Main {
 				cm = sc.nextInt();
 				cy = sc.nextInt();
 				cc = sc.nextInt();
-				if (oneyear(cd, cm, cy, cc, pd, pm, py, pc)) {
+				if (oneday(cd, cm, cy, cc, pd, pm, py, pc)) {
 					count++;
 					sum += cc - pc;
 				}
@@ -39,7 +39,7 @@ public class Main {
 		out.flush();
 	}
 
-	public static boolean oneyear(int cd, int cm, int cy, int cc, int pd, int pm, int py, int pc) {
+	public static boolean oneday(int cd, int cm, int cy, int cc, int pd, int pm, int py, int pc) {
 		if (--cd == 0) {
 			if (--cm == 0) {
 				cm = 12;
