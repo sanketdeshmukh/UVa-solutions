@@ -8,7 +8,7 @@ import java.util.Arrays;
 
 
 
-public class A {
+public class Main {
 
 
 	public static void main(String[]args)throws IOException {
